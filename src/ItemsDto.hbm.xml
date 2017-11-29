@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.gc.dto.ItemsDto" table="items"
+		schema="coffeeshopdb">
+
+
+		<id name="productName">
+			
+			<column name="productName" sql-type="VARCHAR(255)"></column>
+		</id>
+
+		<property name="description">
+			<column name="description" sql-type="varchar(255)" length="255"></column>
+		</property>
+		<property name="quantity">
+			<column name="quantity" sql-type="INT(11)" length="255"></column>
+		</property>
+		<property name="price">
+			<column name="price" sql-type="double"></column>
+		</property>
+
+
+
+	</class>
+</hibernate-mapping>		
