@@ -27,7 +27,27 @@
 		<property name="phone">
 			<column name="phone" sql-type="VARCHAR(10)"></column>
 		</property>
-
+		<property name="address">
+			<column name="address" sql-type="VARCHAR(50)"></column>
+		</property>
+		<property name="city">
+			<column name="city" sql-type="VARCHAR(50)"></column>
+		</property>
+		<property name="state">
+			<column name="state" sql-type="VARCHAR(50)"></column>
+		</property>
+		<property name="zip">
+			<column name="zip" sql-type="VARCHAR(50)"></column>
+		</property>
+		<property name="music">
+			<column name="music" sql-type="VARCHAR(50)"></column>
+		</property>
+		<property name="gender">
+			<column name="gender" sql-type="VARCHAR(50)"></column>
+		</property>
+		<property name="background">
+			<column name="background" sql-type="VARCHAR(255)"></column>
+		</property>
 
 	</class>
 </hibernate-mapping>		

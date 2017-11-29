@@ -245,7 +245,7 @@
 						<div class="input-group">
 							<span class="input-group-addon"><i
 								class="glyphicon glyphicon-pencil"></i></span>
-							<textarea class="form-control" name="comment"
+							<textarea class="form-control" name="background"
 								placeholder="Tell us about yourself!"></textarea>
 						</div>
 					</div>
